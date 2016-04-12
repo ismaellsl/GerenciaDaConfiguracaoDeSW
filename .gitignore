@@ -9,7 +9,6 @@
 *.ear
 *.project
 *derby.log 
-# InteliJ files #
 */.idea/**
 .idea/**
 */target/**
