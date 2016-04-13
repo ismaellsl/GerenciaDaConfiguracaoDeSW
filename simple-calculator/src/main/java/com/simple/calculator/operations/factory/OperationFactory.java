@@ -9,6 +9,8 @@ public class OperationFactory {
 			return new AdditionOperation();
 		else if(calculus.contains("-"))
 			return new SubtractionOperation();
+		else if(calculus.contains("/"))
+			return new DivisionOperation();
 		else if(calculus.contains("*"))
 			return new MultiplicationOperation();
 		else throw new OperationNotFoundException();
