@@ -4,7 +4,7 @@ public class CalculusParser {
 	private int[] operands;
 
 	public CalculusParser(String calculus){
-		String[] array = calculus.split("\\+|-|\\/");
+		String[] array = calculus.split("\\+|-|\\*|\\/");
 		operands = new int[]{Integer.parseInt(array[0].trim()), Integer.parseInt(array[1].trim())};
 	}
 	
